@@ -1,0 +1,35 @@
+{
+  "name": "ip-address-tracker-challenge-frontend-mentor",
+  "version": "1.0.0",
+  "description": "![Design preview for the IP Address Tracker coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+    },
+  "keywords": [
+    "Html",
+    "Css",
+    "JavaScript"
+  ],
+  "author": "Alejandro Leyva <a.leyvaa95@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "leaflet": "^1.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "svelte": "^3.25.1",
+    "svelte-loader": "^2.13.6",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
